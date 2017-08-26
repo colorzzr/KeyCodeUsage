@@ -50,9 +50,9 @@ inside `<>` is for template because differ piture has different number for color
 Gray has only black whtie -> `<unsign int>`
 
 Full-color has three channels -> `<Vecb>` (vecter  bit):
-    - varible.at<Vecb>(row, col)[0] (Blue channel)
-    - varible.at<Vecb>(row, col)[1] (Green channel)
-    - varible.at<Vecb>(row, col)[2] (Red channel)
+- varible.at<Vecb>(row, col)[0] (Blue channel)
+- varible.at<Vecb>(row, col)[1] (Green channel)
+- varible.at<Vecb>(row, col)[2] (Red channel)
     
 
 
