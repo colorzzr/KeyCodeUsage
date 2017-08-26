@@ -11,3 +11,8 @@
 加入openCV下的x64\vc14\lib文件夹
 接着去链接器-输入（link-input）的附加依赖项（additional dependence） 点击编辑
 加入lib下的opencv_worldXXXd.lib（要打全名即.lib其中XXX为opencv的版本）
+
+#command
+all function and class are under the `cv namespace`
+Mat varible = imread("fileName", flag); --- allow opencv to read image under the project folder and store in varible
+imshow("name", variable(matrix));
