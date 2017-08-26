@@ -43,5 +43,6 @@ all function and class are under the `cv namespace`
 `waitKey();` --- wait user to press the key then continue
 
 # Operation on Pixel
+`variable.at<>(row, col)` --- allow opencv to access to specific pixel[row][col]
 
 
