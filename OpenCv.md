@@ -40,4 +40,8 @@ all function and class are under the `cv namespace`
 
 `moveWindow("windowName", long, width);` --- allow the opencv to move the existing window to the give place
 
+`waitKey();` --- wait user to press the key then continue
+
+# Operation on Pixel
+
 
