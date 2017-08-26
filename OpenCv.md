@@ -24,7 +24,9 @@
 
 
 
+
 #command
+
 all function and class are under the `cv namespace`
 
 Mat varible = imread("fileName", flag); --- allow opencv to read image under the project folder and store in varible
