@@ -56,6 +56,29 @@ Full-color has three channels -> `<Vecb>` (vecter  bit):
 - varible.at<Vecb>(row, col)[0] (Blue channel)
 - varible.at<Vecb>(row, col)[1] (Green channel)
 - varible.at<Vecb>(row, col)[2] (Red channel)
-    
 
+Example:
+```
+Mat test = imread("hhh.jpg", CV_LOAD_IMAGE_COLOR);
+
+	for (int row = 0; row < test.rows; row++) {
+		for (int col = 0; col < test.cols; col++) {
+			test.at<Vec3b>(row, col)[0] = test.at<Vec3b>(row, col)[0] * 0;
+		}
+	}
+
+	imshow("test", test);
+	waitKey();
+```
+    
+# Split and Merge channels
+
+`split(Mat::varible, Mat::array)` --- let opencv put RGB value in to `array`(usually it is 3 channels:Blue, Green, Red)
+
+`merge(Mat::array, arraysize, outputfile)` --- opencv would conbine all pixel inside the array
+
+Example:
+```
+
+```
 
