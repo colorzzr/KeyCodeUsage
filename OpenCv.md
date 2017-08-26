@@ -24,7 +24,7 @@
 
 
 
-# Command
+# Basic Control Command
 
 all function and class are under the `cv namespace`
 
@@ -37,4 +37,7 @@ all function and class are under the `cv namespace`
 `nameWindow("windowName", flag);` --- allow opencv to create a empty window 
 
 `resizeWindow("windowName", long, width);` --- allow the opencv to resize the window with given long*width;
+
+`moveWindow("windowName", long, width);` --- allow the opencv to move the existing window to the give place
+
 
