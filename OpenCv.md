@@ -24,11 +24,13 @@
 
 
 
-# command
+# Command
 
 all function and class are under the `cv namespace`
 
-Mat varible = imread("fileName", flag); --- allow opencv to read image under the project folder and store in varible
+`Mat varible = imread("fileName", flag);` --- allow opencv to read image under the project folder and store in varible
 
-imshow("name", variable(matrix));
+`imshow("name", variable(matrix));` --- allow the window to show the image
+
+`imwrite("outputfilename", variable);` --- allow opencv to output a image
 
