@@ -1,6 +1,7 @@
 # SetUp
 去我的电脑-属性-环境变量
 加入OpenCV build的路径为新的variable
+
 然后选择path（路径）-编辑 加入OpenCv文件夹下的x64\cv14\bin
 之后保存保存保存， 重启电脑
 
