@@ -34,3 +34,7 @@ all function and class are under the `cv namespace`
 
 `imwrite("outputfilename", variable);` --- allow opencv to output a image
 
+`nameWindow("windowName", flag);` --- allow opencv to create a empty window 
+
+`resizeWindow("windowName", long, width);` --- allow the opencv to resize the window with given long*width;
+
