@@ -1,0 +1,24 @@
+# Using Webcam
+Webcam has a class called `VideoCapture`
+Inside `VideoCapture` there is member function `.read` to read every image capture by webcam
+
+Example:
+```
+#include "opencv2\opencv.hpp"
+
+
+using namespace cv;
+int main() {
+	Mat frame;
+	VideoCapture vid(0);
+
+	if (!vid.isOpened()) return -1;
+	while (vid.read(frame)) {
+		imshow("frame", frame);
+		if (waitKey(1000 / 20) >= 0) break;
+
+	}
+	return 1;
+
+}
+```
