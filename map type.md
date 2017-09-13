@@ -8,6 +8,10 @@ array的index[]只能是int 而map可以是任何的东西
 
 可以是char可以是string可以是struct（可以是class吗?）
 
+而且要在std的namespace下!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
 Example
 ```
 map<int, string> test;
