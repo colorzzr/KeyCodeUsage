@@ -41,4 +41,13 @@ reach 有三种 LAN/MAN/WAN
  一般用cable和基站（因为大于30mile的要用基站）
     
     
-    
+### Node
+在整个Network中device被叫做"node"
+
+### Communication Media
+链接devices的方法,像是wifi, cable之类的叫做"communication Media"
+
+
+
+
+    
