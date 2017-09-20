@@ -1,0 +1,15 @@
+# User Input
+
+Type `read` to read from the key board
+
+But! the varible dont need `$`
+
+`read name` means read from keyboard and then store in the variable `name `
+
+Also `read` can read multiple varible (same as `cin`)
+
+### Flag
+
+the cmd with `-` to give additional output
+
+`read -p` allow user to type input in same line
