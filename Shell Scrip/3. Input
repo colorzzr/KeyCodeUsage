@@ -13,3 +13,7 @@ Also `read` can read multiple varible (same as `cin`)
 the cmd with `-` to give additional output
 
 `read -p` allow user to type input in same line
+
+`read -sp` allow user to hide input(for password)
+
+`read -a` set the varible to array
