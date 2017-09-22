@@ -12,15 +12,15 @@ all the stream stop reading when meet `space`
 
 include in `<iostream>`
 
-cin is the stream take input from keyboard
+`cin` is the stream take input from keyboard
 
-and it is default stream
+and it is default stream name
 
 ### Streamstring
 
 include in '<sstream>'
 
-streamstring is a type that reading from string
+streamstring is a type that reading from `string`
 
 like `cin`, it can load string `123` to int `123`
 
@@ -33,9 +33,9 @@ include in `<fstream>`
 
 # Flag
 
-`.eof()` return true if the input is end (in `cin` eof is `Ctrl + d`)
+`.eof()` return `true` if the input is end (in `cin` eof is `Ctrl + d`)
 
-`.fail()` return true if bad input (such as `a` to `int`)
+`.fail()` return `true` if bad input (such as `a` to `int`)
 
 `.clear()` reset the `fail()` flag
 
@@ -43,7 +43,7 @@ include in `<fstream>`
 
 `.open("./file.txt")` open the ./file.txt
 
-`.is_open()` return true if the file open
+`.is_open()` return `true` if the file open
 
 `.close()` close the file
 
