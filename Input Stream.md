@@ -33,7 +33,7 @@ include in `<fstream>`
 
 # Flag
 
-`.eof()` return `true` if the input is end (in `cin` eof is `Ctrl + d`)
+`.eof()` return `true` if the input is end (in `cin` eof is `Ctrl + d`) and it set `fail()` to 1
 
 `.fail()` return `true` if bad input (such as `a` to `int`)
 
