@@ -1,0 +1,28 @@
+# Arithmetic Operation
+
+if we use `echo 1 + 1` we would seee it print ` 1 + 1`
+
+how can we print `2` in echo?
+
+```
+$(( operation ))
+echo "Addition = $(( number_1 + number_2 ))"
+$( expr )
+echo "Addition = $( expr number1 + number2)"
+```
+
+remember without `$` the echo would treat them as string
+
+add `$` echo would treat them as variables
+
+### Operation
+
+`+` addition
+
+`-` subtraction
+
+`/` division
+
+`*` multiplication(note here: when using `expr` the multiplication needs escaped charecter  `\*`
+
+`%` module
