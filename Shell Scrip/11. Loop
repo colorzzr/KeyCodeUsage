@@ -1,0 +1,18 @@
+# While
+
+```
+while [condition]
+do 
+    statement1
+    statement2
+    statement3
+done
+```
+Example
+```
+n = 1;
+while [ $n -le 10]
+do 
+    n = $(( n++))
+done
+```
