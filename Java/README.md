@@ -1,0 +1,3 @@
+# Java
+
+Note of java
