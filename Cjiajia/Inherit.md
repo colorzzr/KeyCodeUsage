@@ -19,6 +19,8 @@ inherit::inherit(){
 
 inherit would call the constructor of base which takes the `a` as para
 
+NOTE HERE: `a` must the para of inherit construcotr
+
 ```
 inherit::inherit(int a):base(a){
   
