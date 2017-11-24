@@ -73,7 +73,17 @@ dp->print();
 bp->print();
 ```
 
+### Force method
 
+if add `= 0` at the end of the virtual method;
+
+then the class can only be inherit from others cannot be create by user
+
+and in deirve class it must have same method otherwize the deirve cannot be create by user 
+
+```
+virtual void print() = 0;
+```
 
 
 
