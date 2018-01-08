@@ -1,0 +1,6 @@
+# Array
+Array是比较少用的一个template
+
+因为他不是dynamic allocated，array的size是无法加宽的
+
+而且在template中不同的宽度的array会被作为不同的type
