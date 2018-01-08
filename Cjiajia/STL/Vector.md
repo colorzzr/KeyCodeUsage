@@ -1,7 +1,8 @@
 # Vector
 
-造好的Template Array & Link List 可以用[]来提取
+造好的dynamic template Array 可以用[]来提取
 
+只有单向的
 ```
 vector<int> vec;
 ```
