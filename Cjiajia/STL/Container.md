@@ -8,7 +8,7 @@
 - clear() : 清空所有
 - swap(src) : 将src和dts互换(src变成空的了
 
-# Associative Containner(BST)
+# Associative Containner(BST总是sort好的)
 - set & multiSet
 - map & multiMap
 
