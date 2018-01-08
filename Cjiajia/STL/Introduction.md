@@ -23,5 +23,5 @@ square<int>(5);
 
 member funtion在class外部定义的时候也要<specifier>
 ```
-template<T>
+<template T>
 Class<T> Class::hhhh(Class<T> src)
