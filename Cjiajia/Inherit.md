@@ -73,6 +73,12 @@ dp->print();
 bp->print();
 ```
 
+### Virtual 
+
+adding Virtual to the base function ` virtual void foo()`
+
+the derive class can rewrite the function for it own sake
+
 ### Force method
 
 if add `= 0` at the end of the virtual method;
